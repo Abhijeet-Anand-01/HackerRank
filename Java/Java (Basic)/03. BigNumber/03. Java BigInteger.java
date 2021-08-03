@@ -8,10 +8,10 @@ public class Solution {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         
         Scanner sc = new Scanner(System.in);
-        
-        BigInteger a = new BigInteger(sc.next());
-        BigInteger b = new BigInteger(sc.next());
-        
+
+        BigInteger a = sc.nextBigInteger();
+        BigInteger b = sc.nextBigInteger();
+
         sc.close();
         
         System.out.println(a.add(b));
