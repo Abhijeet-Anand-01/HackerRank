@@ -1,3 +1,5 @@
+// Approach 1
+
 import java.io.*;
 import java.util.*;
 
@@ -12,5 +14,23 @@ public class Solution {
         int num3 = sc.nextInt();
         
         System.out.print(num1 + "\n" + num2 + "\n" + num3);
+    }
+}
+
+
+
+// Approach 2
+
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        while(scan.hasNextInt()) {
+            int a = scan.nextInt();
+            System.out.println(a);
+        }
+        scan.close();
     }
 }
