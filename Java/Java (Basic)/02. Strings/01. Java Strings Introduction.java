@@ -8,7 +8,7 @@ public class Solution {
         Scanner sc=new Scanner(System.in);
         String A=sc.next();
         String B=sc.next();
-        /* Enter your code here. Print output to STDOUT. */
+        sc.close();
         
         System.out.println(A.length() + B.length());
         System.out.println(A.compareTo(B) > 0 ? "Yes" : "No");
